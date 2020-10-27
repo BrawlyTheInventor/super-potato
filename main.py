@@ -12,7 +12,7 @@ def right():
 def left():
 	player.left(customleft)
 
-print("It's a " + choice(["potato", "tomato", "chicken", "SUPER POTATO"])
+print("It's a " + choice(["potato", "tomato", "chicken", "SUPER POTATO"]))
 penup()
 goto(randint(1, 100), randint(1, 100))
 screen = Screen()
