@@ -1,7 +1,15 @@
 
 from random import *
 from turtle import *
-from varables import *
+from config import *
+if addons-enabled == True:
+  if input("WARN: You have addons enabled. Do you want to use them? (type n for no)") == "n":
+    print("Disableing addons...")
+  else:
+    print("Running addon scripts...")
+    from addon import *
+    if rundefaultprogram == False:
+    exit()
 player = Turtle()
 player.penup()
 def forward():
